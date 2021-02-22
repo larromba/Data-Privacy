@@ -9,7 +9,7 @@
 - [Search Engine](#search-engine)
 - [Cloud Storage](#cloud-storage)
 - [Social Media](#social-media)
-- [Smartphone / Tablet](#smartphone-tablet)
+- [Smartphone / Tablet](#smartphone--tablet)
 - [Computer](#computer)
 - [VPN](#vpn)
 - [DNS](#dns)
@@ -359,11 +359,12 @@ If you choose third party solutions, follow them on Twitter, and check their blo
 14. Spain
 
 ## Useful Websites
-[14 eyes](https://www.privacytools.io/providers/#ukusa)
-[Privacy Tools](https://www.privacytools.io/)
-[Restore Privacy](https://restoreprivacy.com/)
-[The complete list of alternative to all Google products](https://www.techspot.com/news/80729-complete-list-alternatives-all-google-products.html)
-[How to restore your privacy huge list](https://www.google.com/url?q=https://www.reddit.com/r/privacytoolsIO/comments/g1z01w/guide_to_how_to_restore_your_privacy_huge_list/&sa=D&source=editors&ust=1613971005610000&usg=AOvVaw03BblmrZ7fLRheNHcjB3uE)
-[Alternatives to google and facebook and reclaiming privacy](https://www.reddit.com/r/dropgoogle/comments/5l0fwj/alternatives_to_google_facebook_and_reclaiming/)
-[List of privacy-conscious email services](https://prxbx.com/email/)
-[Drop Google](https://dropgoogle.com/)
+
+- [14 eyes](https://www.privacytools.io/providers/#ukusa)
+- [Privacy Tools](https://www.privacytools.io/)
+- [Restore Privacy](https://restoreprivacy.com/)
+- [The complete list of alternative to all Google products](https://www.techspot.com/news/80729-complete-list-alternatives-all-google-products.html)
+- [How to restore your privacy huge list](https://www.google.com/url?q=https://www.reddit.com/r/privacytoolsIO/comments/g1z01w/guide_to_how_to_restore_your_privacy_huge_list/&sa=D&source=editors&ust=1613971005610000&usg=AOvVaw03BblmrZ7fLRheNHcjB3uE)
+- [Alternatives to google and facebook and reclaiming privacy](https://www.reddit.com/r/dropgoogle/comments/5l0fwj/alternatives_to_google_facebook_and_reclaiming/)
+- [List of privacy-conscious email services](https://prxbx.com/email/)
+- [Drop Google](https://dropgoogle.com/)
