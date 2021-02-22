@@ -86,12 +86,12 @@ If you do choose to switch email service, and want to maintain your contacts, em
 * Export your email to [mbox format](https://lifehacker.com/how-to-back-up-your-gmail-and-view-mbox-files-1827660389) and then import the file. Alternatively you could try moving emails folder by folder via [Thunderbird](https://www.thunderbird.net/en-GB/).
 * Once imported, delete everything from the old provider.
 * Then either (slowly transition):
- * Indefinitely setup message forwarding from the old address.
- * Create a message filter on the old provider to immediately delete incoming mail. *Messages may be kept for some time in the trash before being permanently deleted.*
- * Delete the old account after some time.
+    - Indefinitely setup message forwarding from the old address.
+    - Create a message filter on the old provider to immediately delete incoming mail. *Messages may be kept for some time in the trash before being permanently deleted.*
+    - Delete the old account after some time.
 * Or (immediately transition):
- * [Mail merge](https://addons.thunderbird.net/en-US/thunderbird/addon/mail-merge/) your old contacts to notify them about your new email address.
- * Delete the old account.
+    - [Mail merge](https://addons.thunderbird.net/en-US/thunderbird/addon/mail-merge/) your old contacts to notify them about your new email address.
+    - Delete the old account.
 
 You must then decide how to access your email. Whilst web browsers are commonplace, any time spent browsing leaves you more vulnerable to tracking. One solution is to use a software email client, such as [Thunderbird](https://www.thunderbird.net/en-GB/) which can be configured to prevent [web-beacons and tracking pixels](https://en.wikipedia.org/wiki/Web_beacon). However web clients store information on your computer, which can be a target for malware, or pose a security risk if your laptop is stolen.
 
@@ -325,16 +325,16 @@ Cryptocurrencies are stored in [wallets](https://www.bitdegree.org/crypto/tutori
 In order to keep your cryptocurrency [private](https://markshirecrypto.com/crypto-security/how-to-protect-your-cryptocurrency-privacy/#Your-Information-Leaks):
 * Use a privacy focussed wallet, like the [Wassabi Wallet](https://www.wasabiwallet.io/).
 * Only make transactions over the Tor Browser.
-* Never buy them from an exchange with KYC. A list of exchanges without KYC can be found [here](https://tradingbrowser.com/crypto-exchange-without-kyc/).
+* Never buy cryptocurrency from an exchange with KYC. A list of exchanges without KYC can be found [here](https://tradingbrowser.com/crypto-exchange-without-kyc/).
 
 Once you’ve bought some cryptocurrency, you can follow [this tutorial](https://www.vpnmentor.com/blog/pay-anonymously-ins-outs-anonymous-payment-methods/) to pay anonymously. If you need a mixing service, there’s a list [here](https://bestbitcoinmixers.com/), however the Wassabi Wallet handles it using [CoinJoin](https://en.bitcoin.it/wiki/CoinJoin).
 
 # Closing Notes
-The NSA revelations suggest it’s probably safer to be over-cautious, rather than too relaxed, as ignorance is easy to exploit. However there’s always a tradeoff to be made between paranoia and practicality, as there’s no perfect solution.
+The NSA revelations suggest it’s probably safer to be over-cautious, rather than too relaxed, as ignorance is easy to exploit. However there’s must be a tradeoff between paranoia and practicality, as there’s no perfect solution.
 
-If you have the technical expertise, hosting everything on your own server with open-source software would be the most secure way of operating in every case.
+If you have the technical expertise, hosting solutions on your own server would be the most secure way of operating in every case.
 
-If you choose third party solutions, follow them on Twitter, and check their blogs often. Companies (especially smaller ones) often get acquired by larger companies. If the acquisitions seem suspicious, the new parent company’s history is troubling, or the company’s jurisdiction changes, it’s worth finding another provider.
+If you choose third-party solutions, follow them on Twitter, and check their blogs often. Companies (especially smaller ones) often get acquired by larger companies. If the acquisitions seem suspicious, the parent company’s history seems troubling, or the company’s jurisdiction changes, it’s worth finding another provider.
 
 # Appendix
 
