@@ -266,12 +266,16 @@ The IMSI (burnt into your SIM card) is used by cell phone towers when connecting
 
 Turning off your phone (or using airplane mode) [won’t solve this](https://www.businessinsider.com/edward-snowden-phone-2016-7?r=US&IR=T). The only solution is to use a [burner phone](https://www.fifthgeek.com/whats-a-burner-phone-how-much-does-a-burner-phone-cost/), or nothing at all.
 
+If you use an iPhone, [don't jailbreak it](https://www.howtogeek.com/227214/why-you-shouldn%E2%80%99t-jailbreak-your-iphone/). It may [remove protections](https://www.intego.com/mac-security-blog/dont-jailbreak-your-iphone-if-you-want-to-stop-government-spyware/) that keep you safe from third-party developers.
+
 # Computer
 Generally you should only download and run programs from verified developers.
 
 Anything downloaded from browser pop-ups (especially Flash installers) are [probably malware](https://www.wired.com/story/mac-malware-flash-installer-onlyfans-pirates-netgear-zero-day-security-news/). Downloading cracked programs from P2P file-sharing services (like BitTorrent) are likely to [contain malware](https://cybersecurityportal.com/cracked-games-contain-viruses-malware/).
 
 Malware typically infects and then persists, by either living in plain sight, or by evading detection. If you use macOS, [Patrick Wardle](https://twitter.com/patrickwardle) provides [free tools](https://objective-see.com/) to help diagnose and remove malware. He outlines the [basics of macOS malware](https://www.youtube.com/watch?v=fv4l9yAL2sU) at the 2015 Black Hat Conference.
+
+Beware of 'free' virus scanners, as they're normally given full-access to your computer, and may [sell your data](https://www.zdnet.com/article/avg-releases-transparent-privacy-policy-yes-we-will-sell-your-data/).
 
 To improve macOS security, there’s lots of useful information collected in guides like [this](https://github.com/larromba/macOS-Security-and-Privacy-Guide) and [this](https://github.com/larromba/osx-security-awesome).
 
