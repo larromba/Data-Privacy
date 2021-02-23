@@ -275,7 +275,7 @@ Anything downloaded from browser pop-ups (especially Flash installers) are [prob
 
 Malware typically infects and then persists, by either living in plain sight, or by evading detection. If you use macOS, [Patrick Wardle](https://twitter.com/patrickwardle) provides [free tools](https://objective-see.com/) to help diagnose and remove malware. He outlines the [basics of macOS malware](https://www.youtube.com/watch?v=fv4l9yAL2sU) at the 2015 Black Hat Conference.
 
-Beware of 'free' virus scanners, as they're normally given full-access to your computer, and may [sell your data](https://www.zdnet.com/article/avg-releases-transparent-privacy-policy-yes-we-will-sell-your-data/).
+Beware of 'free' virus scanners. They're normally given full-access to your computer, which is concerning as they may [sell your data](https://www.zdnet.com/article/avg-releases-transparent-privacy-policy-yes-we-will-sell-your-data/).
 
 To improve macOS security, there’s lots of useful information collected in guides like [this](https://github.com/larromba/macOS-Security-and-Privacy-Guide) and [this](https://github.com/larromba/osx-security-awesome).
 
