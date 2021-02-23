@@ -54,7 +54,7 @@ These technologies may concern your privacy:
 
 These technologies may apply to the following platforms:
 
-| **Platforms** |
+| **Platform** |
 | --- |
 | Computer |
 | Tablet |
