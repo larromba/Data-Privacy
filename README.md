@@ -345,7 +345,7 @@ On macOS, [dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy) could be 
 Alternatively, DNS over TLS could be configured with [knot-resolver](https://www.knot-resolver.cz/) (see [tutorial](https://phiffer.org/2018/04/02/dns-over-tls-on-macos)), and DNS over HTTPS by setting your browser to use something from [this list](https://www.privacytools.io/providers/dns/). [LibreDNS](https://libredns.gr/) seems a solid choice.
 
 # Cryptocurrency
-If used properly, cryptocurrencies help to preserve your privacy when making a purchase.
+If used properly, cryptocurrencies help to preserve your privacy whilst making a purchase.
 
 Cryptocurrency transactions are chained together in a public, decentralised [blockchain](https://www.investopedia.com/terms/b/blockchain.asp). As it's public, every [transaction](https://www.blockchain.com/btc/tx/645989b3d3df37827f4dfe2f75bf2fea1e66e25d2c6c562225c0123d1567f429) includes information like IP addresses, [transaction addresses](https://www.blockchain.com/btc/address/1KyeBoM2XveqjHUQEcK3qgaxnn1bDFMvwU), and the transaction's value.
 
