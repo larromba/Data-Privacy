@@ -120,7 +120,7 @@ If keeping your existing emails isn’t a requirement, [Tutona](https://tutanota
 
 If you request an invitation, do it from an anonymous account. Once your real name is associated with an invite code, your account becomes identifiable.
 
-Once you choose a provider, use a number of [email aliases](https://www.techopedia.com/definition/1653/email-alias) to hide your main email address (never use the main address to send emails). For example, you could create an alias friends, online services, and temporary aliases for anonymity. If you ever receive too much spam for a particular alias, you can also delete it without affecting the main email address. 
+Once you choose a provider, use a number of [email aliases](https://www.techopedia.com/definition/1653/email-alias) to hide your main email address (never use the main address to send emails). For example, you could create an alias friends, online services, and temporary aliases for anonymity. If you ever receive too much spam for a particular alias, you can safely delete it without affecting the main address. 
 
 # Internet Browser
 It’s worth reading the basics of how an [internet browser works](https://www.mozilla.org/en-GB/firefox/browsers/what-is-a-browser/).
@@ -349,9 +349,9 @@ If used properly, cryptocurrencies help to preserve your privacy when making a p
 
 Cryptocurrency transactions are chained together in a public, decentralised [blockchain](https://www.investopedia.com/terms/b/blockchain.asp). As it's public, every [transaction](https://www.blockchain.com/btc/tx/645989b3d3df37827f4dfe2f75bf2fea1e66e25d2c6c562225c0123d1567f429) includes information like IP addresses, [transaction addresses](https://www.blockchain.com/btc/address/1KyeBoM2XveqjHUQEcK3qgaxnn1bDFMvwU), and the transaction's value.
 
-[Wallets](https://www.bitdegree.org/crypto/tutorials/cryptocurrency-wallet#a-brief-of-crypto-wallet) are used to access the value at transaction addresses, and authorise its use. They can display a combined total of multiple addresses, which may seem like a storage. In reality, a wallet is simply a private key that enabled access to the value located at these addresses.
+[Wallets](https://www.bitdegree.org/crypto/tutorials/cryptocurrency-wallet#a-brief-of-crypto-wallet) use a private key to access a transaction address' value. Modern [hierarchical deterministic (HD)](https://bitcoin.stackexchange.com/questions/98502/how-can-a-user-or-wallet-have-multiple-addresses-at-all-if-out-of-a-private-key) wallets use the same private key for various addresses, rather than creating new keys for each address.
 
-The identity of transactions / wallets are often not clear, so cryptocurrencies are considered [pseudonymous](https://dictionary.cambridge.org/dictionary/english/pseudonymous). Pseudonymity should not be confused with anonymity, as cryptocurrencies [aren't totally anonymous](https://99bitcoins.com/bitcoin-actually-anonymous/). As [regulations](https://www.finder.com/my/global-cryptocurrency-regulations) become tighter, anonymity becomes harder.
+The identity of transactions and wallets are not clear, which is why cryptocurrencies are considered [pseudonymous](https://dictionary.cambridge.org/dictionary/english/pseudonymous). Pseudonymity shouldn't be confused with anonymity, as cryptocurrencies [aren't totally anonymous](https://99bitcoins.com/bitcoin-actually-anonymous/). As [regulations](https://www.finder.com/my/global-cryptocurrency-regulations) become tighter, anonymity becomes harder.
 
 If you're looking to buy some small amounts of bitcoin to make anonymous transactions, you'll first need a [privacy focused wallet](https://bitcoin.org/en/choose-your-wallet?step=5). [Blockstream Green](https://blockstream.com/green/) is a good example, as it has an option to use the Tor network built in.
 
