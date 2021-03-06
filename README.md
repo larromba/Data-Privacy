@@ -359,7 +359,7 @@ You'll then need to swap fiat money for cryptocurrency, which is very difficult.
 
 There exist [other options](https://99bitcoins.com/buy-bitcoin/anonymously-without-id/) to buy anonymous cryptocurrency, but most of them have significant drawbacks. Depending on your country, swapping cash for cryptocurrency at [cryptocurrency ATMs](https://99bitcoins.com/buy-bitcoin/anonymously-without-id/#atm) is probably the easiest (and safest) way to avoid KYC ([map here](https://coinatmradar.com/)), especially for smaller amounts.
 
-If you can't find an ATM without KYC, your best bet is to sign up to a cryptocurrency trading website, like [Hodl Hodl](https://www.hodlhodl.com), or [Paxful](https://paxful.com/). If you do this, use an alias email address, fake username, and if you must provide a phone number, use a discardable SIM. Beware these platforms are prone to scams, and it can take time to find a reputable seller, or complete a transaction.
+If you can't find an ATM without KYC, your best bet is to sign up to a cryptocurrency trading website (like [Hodl Hodl](https://www.hodlhodl.com), or [Paxful](https://paxful.com/)). If you do this, use an alias email address, fake username, and if you must provide a phone number, use a discardable SIM. Beware these platforms are prone to scams, and it can take time to find a reputable seller, or complete a transaction.
 
 If this seems too unsafe, whilst unsavoury, it's possible to buy through the KYC process, and then use a [mixing service](https://www.worldcryptoindex.com/what-is-a-coin-mixer/) like [bitcoinmixer.io](https://bitcoinmixer.io) ([more listed here](https://bestbitcoinmixers.com/)) to obfuscate transaction relationships with algorithms like [CoinJoin](https://en.bitcoin.it/wiki/CoinJoin).
 
