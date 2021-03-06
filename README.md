@@ -9,11 +9,13 @@
 - [Search Engine](#search-engine)
 - [Cloud Storage](#cloud-storage)
 - [Social Media](#social-media)
+- [Messaging Apps](#messaging-apps)
+- [Password Managers](#password-managers)
 - [Smartphone / Tablet](#smartphone--tablet)
 - [Computer](#computer)
 - [VPN](#vpn)
 - [DNS](#dns)
-- [Cryptocurrencies](#cryptocurrencies)
+- [Cryptocurrency](#cryptocurrency)
 - [Closing Notes](#closing-notes)
 - [Appendix](#appendix)
     * [5 Eyes (avoid)](#5-eyes-avoid)
@@ -83,8 +85,9 @@ The following questions should be asked before using an encrypted email service:
 * Is the jurisdiction outside of the [14 eyes](https://restoreprivacy.com/5-eyes-9-eyes-14-eyes/)? And if not, are logs kept?
 
 If you want to switch service, and also maintain your contacts, emails and folders (labels), you could (depending on your current service):
-* Export your emails to [mbox format](https://lifehacker.com/how-to-back-up-your-gmail-and-view-mbox-files-1827660389), and then import them into your new service. Alternatively you could try moving emails [folder by folder](https://posteo.de/en/help/moving-from-gmail-to-posteo#email) (50-100 at a time) via [Thunderbird](https://www.thunderbird.net/en-GB/).
+* Export your emails to [mbox format](https://lifehacker.com/how-to-back-up-your-gmail-and-view-mbox-files-1827660389), and then import them into your new service. Alternatively you could try moving emails [folder by folder](https://posteo.de/en/help/moving-from-gmail-to-posteo#email) (including your sent folder) 50-100 at a time via [Thunderbird](https://www.thunderbird.net/en-GB/).
 * Once imported, delete everything from the old provider.
+* Change any services over to your new email address.
 * Then either (slowly transition):
     - Indefinitely setup [message forwarding](https://support.google.com/mail/answer/10957) from the old address.
     - Create a [message filter](https://support.google.com/mail/answer/6579) to immediately delete the forwarded emails. *(Messages may be kept for some time in the trash before being permanently deleted.)*
@@ -93,11 +96,31 @@ If you want to switch service, and also maintain your contacts, emails and folde
     - [Mail merge](https://addons.thunderbird.net/en-US/thunderbird/addon/mail-merge/) your old contacts to notify them about your new email address.
     - Delete the old account.
 
+To backup any email, either export it in mbox format from your email provider, or use Thunderbird (which can restore the folder locally later on). 
+To use Thunderbird without any 3rd-party extension:
+* Find the email's directory by clicking `Tools -> Account Settings -> Server Settings` and extracting the value from `Local Directory` (it may look something like: `.../Thunderbird/Profiles/<MY_PROFILE>.default/ImapMail/<MY.IMAP.ACCOUNT.COM>`).
+* To backup everything:
+    - Click on every folder in Thunderbird to ensure they're downloaded.
+    - Zip up the entire folder.
+    - Store it on an encrypted hard drive / cloud service.
+* If you want to backup a specific folder:
+    - Zip up the `<FOLDER_NAME>.msf` file, `<FOLDER_NAME>.sbd` folder (if it exists) and the empty `<FOLDER_NAME>` file. If the empty file doesn't exist, create one. 
+    - Store it on an encrypted hard drive / cloud service.
+
+To access the backup at a later stage in Thunderbird:
+    - Unzip the file
+    - Move its contents to: `/Thunderbird/Profiles/<MY_PROFILE>.default/Mail/Local Folders/`
+    - Restart Thunderbird and it should appear in the `Local Folders` section. If you can't this section, click `View -> Layout -> Folder Pane`.
+
 You must then decide how to access your email. Whilst web browsers are commonplace, any time spent browsing leaves you more vulnerable to tracking. One solution is to use a software email client, such as [Thunderbird](https://www.thunderbird.net/en-GB/) which can be configured to prevent [web-beacons and tracking pixels](https://en.wikipedia.org/wiki/Web_beacon). However, web clients store information on your computer, which can be a target for malware, or pose a security risk if your laptop is stolen.
 
 If you want to keep your existing setup with minimal changes (e.g. everything works as before - notes, calendar, emails on your phone, etc), [Posteo](https://posteo.de/en) seems a good option. Whilst it’s a German company (within the 14 eyes), and German law is [becoming more worrisome](https://old.reddit.com/r/tutanota/comments/dwqqzs/tutanota_its_not_safe/), they don’t keep logs, even if they were almost forced to start logging [ip addresses](https://www.zdnet.com/article/log-free-email-provider-posteo-you-must-log-user-ip-addresses-court-rules/).
 
-If keeping your existing emails isn’t a requirement, [Tutona](https://tutanota.com/) or [CTemplar](https://mail.ctemplar.com/signin) look promising. [CounterMail](https://countermail.com/) is the most secure option, but you’d need an invite from an existing user.
+If keeping your existing emails isn’t a requirement, [Tutona](https://tutanota.com/) or [CTemplar](https://mail.ctemplar.com/signin) look promising. [CounterMail](https://countermail.com/) is the most secure option, but you’d need an invite from an existing user. 
+
+If you request an invitation, do it from an anonymous account. Once your real name is associated with an invite code, your account becomes identifiable.
+
+Once you choose a provider, use a number of [email aliases](https://www.techopedia.com/definition/1653/email-alias) to hide your main email address (never use the main address to send emails). For example, you could create an alias friends, online services, and temporary aliases for anonymity. If you ever receive too much spam for a particular alias, you can also delete it without affecting the main email address. 
 
 # Internet Browser
 It’s worth reading the basics of how an [internet browser works](https://www.mozilla.org/en-GB/firefox/browsers/what-is-a-browser/).
@@ -143,11 +166,11 @@ The less time you spend on the internet, the better. If you must be online, wher
     - Use a trusted network (like your home network).
     - Use HTTPS.
     - When finished, clear the browser's history, and then close the browser.
-* Only sign up to services you really need. For anything else, consider using a [throw-away email address](https://temp-mail.org/en/).
+* Only sign up to services you really need. For anything else, consider using a [throw-away email address](https://temp-mail.org/en/), or a temporary [email alias](https://www.techopedia.com/definition/1653/email-alias).
 * Don’t always use the same username.
 * Be sure to delete unused accounts where possible.
 * Use a password management service to maintain strong and unique passwords. It’ll also act as a record of any services you’ve signed up to.
-* Register important email addresses on [haveibeenpwned](haveibeenpwned.com).
+* Register important email addresses on [haveibeenpwned](https://haveibeenpwned.com).
 
 # Search Engine
 There’s no doubt Google is the best and most intuitive search engine, but it’s at the expense of tracking you, and [keeping logs forever](https://www.siliconvalleywatcher.com/google-keeps-your-data-forever---unlocking-the-future-transparency-of-your-past/). Ideally you’ll want to replace Google with something else, and only it when absolutely necessary.
@@ -241,11 +264,11 @@ There’s a list of password managers outlined [here](https://restoreprivacy.com
 
 Self-hosting [Bitwarden](https://bitwarden.com/) is probably the best option, as even though Bitwarden is a US company, its software is open-source. However, self-hosting is time-consuming to maintain, and can be configured insecurely. If you don’t want to self-host, Bitwarden is still better than [LastPass](https://www.lastpass.com/), as LastPass uses proprietary software, and its parent company [LogMeIn](https://www.logmein.com) was [acquired by private US equity firms](https://restoreprivacy.com/password-manager/reviews/lastpass/).
 
-If you have a bit of technical knowledge, [Pass](https://www.passwordstore.org/) is the simplest (and most elegant) solution using [GPG](https://rtcamp.com/tutorials/linux/gpg-keys/). Whilst Pass is programmed in bash, it’s [open-source](https://git.zx2c4.com/password-store/), well [unit-tested](https://git.zx2c4.com/password-store/tree/tests) and seems to have a nice community.
+If you have a bit of technical knowledge, [Pass](https://www.passwordstore.org/) (tutorial [here](https://gist.github.com/flbuddymooreiv/a4f24da7e0c3552942ff)) is the simplest (and most elegant) solution using [GPG](https://rtcamp.com/tutorials/linux/gpg-keys/). Whilst Pass is programmed in bash, it’s [open-source](https://git.zx2c4.com/password-store/), well [unit-tested](https://git.zx2c4.com/password-store/tree/tests) and seems to have a nice community.
 
 However, storing encrypted passwords locally is a target for malware, especially as your GPG-key’s passphrase could be caught by key-loggers. Keylogging concerns any service, but services like Bitwarden mitigate it with additional measures, such as preventing log-ins from different IP addresses, and two-step authentication. Two-step authentication seems possible with Pass using a [YubiKey](https://www.yubico.com/products/yubikey-hardware/yubikey-neo/), but the setup looks complex (see [here](https://karlgrz.com/2fa-gpg-ssh-keys-with-pass-and-yubikey-neo/), [here](https://ocramius.github.io/blog/yubikey-for-ssh-gpg-git-and-local-login/) and [here](https://captnemo.in/blog/2020/01/04/security-setup/)). The GPG key could be kept on a remote server and temporarily downloaded via [SSH using two-step authentication](https://www.techrepublic.com/article/how-to-set-up-2-step-authentication-for-ssh-on-your-linux-servers/), but Pass might need to be modified.
 
-If you use Pass, it would be wise to backup your GPG key, as if it’s lost, your passwords are toast. Using a [faux password](https://www.digitalneanderthal.com/post/gpg/) on the local key would keep any backups safe, as a compromised faux password won't affect the backup.
+If you use Pass, it would be wise to [backup your GPG key](https://risanb.com/code/backup-restore-gpg-key/), as if it’s lost, your passwords are toast. Using a [faux password](https://www.digitalneanderthal.com/post/gpg/) on the local key would keep any backups safe, as a compromised faux password won't affect the backup.
 
 Hosting encrypted passwords on a private GitHub repo is _probably_ ok, but GitHub is a US company. Hosting your own private GitHub repo might be more secure, but it comes with the same maintainability / configuration issues as explained above.
 
@@ -310,9 +333,9 @@ A list of worthy VPN services are listed [here](https://privacytools.io/provider
 
 Out of these, [Mullvad](https://mullvad.net/en/) seems one of the better choices, perhaps validated by [Mozilla VPN's](https://vpn.mozilla.org/) decision to use their servers and technology. The Mullvad website also has a [Tor address](http://xcln5hkbriyklr6n.onion/), and allows payment with cryptocurrency. Whilst they tout no-logs, they’re still based in Sweden (part of the 14 eyes), which is concerning considering the [Sweedsh Court Surveillance of Data Act](https://mullvad.net/en/help/swedish-covert-surveillance-data-act/) came into force on 1st April 2020.
 
-[IPVN](https://www.ivpn.net/) is based in Gibraltar (outside of the 14 eyes) and has been [audited for no logs](https://cure53.de/audit-report_ivpn.pdf). However, it seems they track some [minor analytics](https://www.ivpn.net/knowledgebase/privacy/what-information-is-collected-and-stored-about-all-visitors-to-your-website/) on their website (including a redacted IP), so truly anonymous payments might be trickier.
+[IPVN](https://www.ivpn.net/) is based in Gibraltar (questionably outside of the 14 eyes, see [here]([questionably](https://www.ivpn.net/blog/should-gibraltar-be-classified-as-a-member-of-the-five-eyes-alliance/)) and [here](https://www.reddit.com/r/VPN/comments/421973/should_gibraltar_be_classified_as_a_fourteen_eyes/)) and has been [audited for no logs](https://cure53.de/audit-report_ivpn.pdf). However, it seems they track some [minor analytics](https://www.ivpn.net/knowledgebase/privacy/what-information-is-collected-and-stored-about-all-visitors-to-your-website/) on their website (including a redacted IP), so truly anonymous payments might be trickier.
 
-If it’s difficult to decide, both services can be purchased for a single month in succession.
+If it’s difficult to decide, both services can be purchased for a single month in succession. Comparison charts are also available [here](https://www.safetydetectives.com/best-vpns/) and [here](https://www.vpnspy.net/).
 
 # DNS
 If you don't want to use a VPN, it’s worth trying to encrypt outgoing DNS traffic, as it’s normally done over HTTP. There are two things to encrypt - _DNS over TLS_ and _DNS over HTTPS_.
@@ -321,17 +344,28 @@ On macOS, [dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy) could be 
 
 Alternatively, DNS over TLS could be configured with [knot-resolver](https://www.knot-resolver.cz/) (see [tutorial](https://phiffer.org/2018/04/02/dns-over-tls-on-macos)), and DNS over HTTPS by setting your browser to use something from [this list](https://www.privacytools.io/providers/dns/). [LibreDNS](https://libredns.gr/) seems a solid choice.
 
-# Cryptocurrencies
-In order to preserve your privacy when making a purchase, cryptocurrencies can be used.
+# Cryptocurrency
+If used properly, cryptocurrencies help to preserve your privacy when making a purchase.
 
-Cryptocurrencies are stored in [wallets](https://www.bitdegree.org/crypto/tutorials/cryptocurrency-wallet#a-brief-of-crypto-wallet) (similar to a bank account number) and are [chained together](https://www.investopedia.com/terms/b/blockchain.asp). Wallets contain their value, and their transactions, but have no identity (they’re [pseudonymous](https://dictionary.cambridge.org/dictionary/english/pseudonymous)).
+Cryptocurrency transactions are chained together in a public, decentralised [blockchain](https://www.investopedia.com/terms/b/blockchain.asp). As it's public, every [transaction](https://www.blockchain.com/btc/tx/645989b3d3df37827f4dfe2f75bf2fea1e66e25d2c6c562225c0123d1567f429) includes information like IP addresses, [transaction addresses](https://www.blockchain.com/btc/address/1KyeBoM2XveqjHUQEcK3qgaxnn1bDFMvwU), and the transaction's value.
 
-In order to keep your cryptocurrency [private](https://markshirecrypto.com/crypto-security/how-to-protect-your-cryptocurrency-privacy/#Your-Information-Leaks):
-* Use a privacy focussed wallet, like the [Wassabi Wallet](https://www.wasabiwallet.io/).
-* Only make transactions in the Tor Browser.
-* Never buy cryptocurrency from an exchange with [Know Your Customer (KYC)](https://www.cryptovantage.com/guides/know-your-customer/). A list of exchanges without KYC can be found [here](https://tradingbrowser.com/crypto-exchange-without-kyc/).
+[Wallets](https://www.bitdegree.org/crypto/tutorials/cryptocurrency-wallet#a-brief-of-crypto-wallet) are used to access the value at transaction addresses, and authorise its use. They can display a combined total of multiple addresses, which may seem like a storage. In reality, a wallet is simply a private key that enabled access to the value located at these addresses.
 
-Once you’ve bought some cryptocurrency, you can follow [this tutorial](https://www.vpnmentor.com/blog/pay-anonymously-ins-outs-anonymous-payment-methods/) to pay for things anonymously. If you need a [mixing service](https://www.worldcryptoindex.com/what-is-a-coin-mixer/), there’s a list [here](https://bestbitcoinmixers.com/), however the Wassabi Wallet already handles it using [CoinJoin](https://en.bitcoin.it/wiki/CoinJoin).
+The identity of transactions / wallets are often not clear, so cryptocurrencies are considered [pseudonymous](https://dictionary.cambridge.org/dictionary/english/pseudonymous). Pseudonymity should not be confused with anonymity, as cryptocurrencies [aren't totally anonymous](https://99bitcoins.com/bitcoin-actually-anonymous/). As [regulations](https://www.finder.com/my/global-cryptocurrency-regulations) become tighter, anonymity becomes harder.
+
+If you're looking to buy some small amounts of bitcoin to make anonymous transactions, you'll first need a [privacy focused wallet](https://bitcoin.org/en/choose-your-wallet?step=5). [Blockstream Green](https://blockstream.com/green/) is a good example, as it has an option to use the Tor network built in.
+
+You'll then need to swap Fiat money for cryptocurrency, which is very difficult. Never buy cryptocurrency from an exchange with [Know Your Customer (KYC)](https://www.cryptovantage.com/guides/know-your-customer/), as you'll need to provide identification. A list of exchanges without KYC can be found [here](https://tradingbrowser.com/crypto-exchange-without-kyc/), however most of them probably require some level of KYC (email, phone number, etc), and may ask for further identification at any stage.
+
+There exist [other options](https://99bitcoins.com/buy-bitcoin/anonymously-without-id/) to buy anonymous cryptocurrency, but most of them have significant drawbacks. Depending on your country, swapping cash for cryptocurrency at [cryptocurrency ATMs](https://99bitcoins.com/buy-bitcoin/anonymously-without-id/#atm) is probably the easiest (and safest) way to avoid KYC ([map here](https://coinatmradar.com/)), especially for smaller amounts.
+
+If you can't find an ATM without KYC, your best bet is to sign up to a cryptocurrency trading website, like [Hodl Hodl](https://www.hodlhodl.com), or [Paxful](https://paxful.com/). If you do this, use an alias email address, fake username, and if you must provide a phone number, use a one from a discardable SIM. Beware these platforms are prone to scams, and it can take time to find a reputable seller, or complete a transaction.
+
+If this seems too unsafe, whilst unsavoury, it's possible to buy through the KYC process, and then use a [mixing service](https://www.worldcryptoindex.com/what-is-a-coin-mixer/) like [bitcoinmixer.io](https://bitcoinmixer.io) ([more listed here](https://bestbitcoinmixers.com/)) to obfuscate transaction relationships with algorithms like [CoinJoin](https://en.bitcoin.it/wiki/CoinJoin).
+
+After purchasing some cryptocurrency, it requires a number of [confirmations](https://cryptocurrencyfacts.com/what-are-confirmations/) through a process of [mining](https://www.webopedia.com/definitions/cryptocurrency-mining/). Occasionally transactions get stuck in an '[unconfirmed](https://changelly.com/blog/transaction-stuck-unconfirmed/)'' state, which happens if the mining fee is set too low. Miners work by exchanging a small fee for the processing time it takes to confirm a transaction. The lower the fee, the longer the transaction may stay unconfirmed (getting stuck). This can be avoided by [checking the fee](https://hackernoon.com/holy-cow-i-sent-a-bitcoin-transaction-with-too-low-fees-are-my-coins-lost-forever-7a865e2e45ba) before purchasing.
+
+Once you’ve bought some cryptocurrency, you can follow [this tutorial](https://www.vpnmentor.com/blog/pay-anonymously-ins-outs-anonymous-payment-methods/) to pay for things anonymously. At the very least, use the Tor Browser to mask your location whilst making a purchase.
 
 # Closing Notes
 The NSA revelations suggest it’s probably safer to be over-cautious, rather than too relaxed, as ignorance is easy to exploit. However, as there’s no perfect solution, there’s always a tradeoff to be made between paranoia and practicality. 
@@ -372,3 +406,8 @@ If you choose third-party solutions, follow them on Twitter, and check their blo
 - [Alternatives to google and facebook and reclaiming privacy](https://www.reddit.com/r/dropgoogle/comments/5l0fwj/alternatives_to_google_facebook_and_reclaiming/)
 - [List of privacy-conscious email services](https://prxbx.com/email/)
 - [Drop Google](https://dropgoogle.com/)
+
+The following websites are worth a read, but may not be as accurate:
+
+- [Proprivacy](https://proprivacy.com)
+- [Privacy Watchdog](https://privacy-watchdog.io)
