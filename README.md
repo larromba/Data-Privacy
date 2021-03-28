@@ -291,6 +291,8 @@ Turning off your phone (or using airplane mode) [won’t solve this](https://www
 
 If you use an iPhone, [don't jailbreak it](https://www.howtogeek.com/227214/why-you-shouldn%E2%80%99t-jailbreak-your-iphone/). It may [remove protections](https://www.intego.com/mac-security-blog/dont-jailbreak-your-iphone-if-you-want-to-stop-government-spyware/) that keep you safe from third-party developers.
 
+It's probably worth getting a [phone camera cover](https://www.amazon.com/s?k=phone+camera+cover).
+
 # Computer
 Generally you should only download and run programs from verified developers.
 
@@ -310,6 +312,8 @@ Unless you use Linux, there’s a good chance Microsoft / Apple will collect you
 * Update the [hosts file](https://github.com/larromba/iosparanoid) to block known adwares, malwares and trackers.
 
 More information on improving macOS security can be found [here](https://github.com/larromba/osx-security-awesome).
+
+It's probably worth getting a [webcam cover](https://www.amazon.com/s?k=webcam+cover).
 
 # VPN
 It’s worth reading [this](https://gist.github.com/joepie91/5a9909939e6ce7d09e29), [this](https://overengineer.dev/blog/2019/04/08/very-precarious-narrative.html) and [this](https://privacytools.io/providers/vpn/#info) to understand why VPNs don’t provide total anonymity.
