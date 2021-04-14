@@ -120,7 +120,7 @@ If keeping your existing emails isn’t a requirement, [Tutona](https://tutanota
 
 If you request an invitation, do it from an anonymous account. Once your real name is associated with an invite code, your account becomes identifiable.
 
-Once you choose a provider, use a number of [email aliases](https://www.techopedia.com/definition/1653/email-alias) to hide your main email address (never use the main address to send emails). For example, you could create an alias friends, online services, and temporary aliases for anonymity. If you ever receive too much spam for a particular alias, you can safely delete it without affecting the main address. 
+Once you choose a provider, use a number of [email aliases](https://www.techopedia.com/definition/1653/email-alias) to hide your main email address (never use the main address to send emails). For example, you could create an alias for friends, online services, and temporary aliases for anonymity. If you ever receive too much spam for a particular alias, you can safely delete it without affecting the main address. 
 
 # Internet Browser
 It’s worth reading the basics of how an [internet browser works](https://www.mozilla.org/en-GB/firefox/browsers/what-is-a-browser/).
