@@ -211,7 +211,7 @@ Whichever search engine you choose, use a VPN (with encrypted DNS) or the Tor Br
 
 There are [numerous encrypted options](https://restoreprivacy.com/cloud-storage/reviews/) on the market (detailed [here](https://restoreprivacy.com/cloud-storage/best/) and [here](https://www.macobserver.com/tips/quick-tip/5-encrypted-cloud-storage/)), but they all seem to have drawbacks.
 
-[SpiderOak](https://spideroak.com/) was [championed by Edward Snowden](https://www.guidingtech.com/31680/dropbox-vs-google-drive-vs-spideroak/), but as it uses proprietary software, and is based in the US, NSA cooperation is plausible.
+[SpiderOak](https://spideroak.com/) was [championed by Edward Snowden](https://www.guidingtech.com/31680/dropbox-vs-google-drive-vs-spideroak/), but as it uses proprietary software, and is based in the US, there's always a worry of NSA cooperation. However, as the security looks very convincing, this worry is most likely paranoia.
 
 [Koofr](https://koofr.eu/) (based in Ljubljana) might be a safer alternative. It has a simple [privacy pledge](https://koofr.eu/privacy/), and [this review](https://cloudstorageinfo.org/koofr-review) suggests client-side encryption is possible using [rclone](https://rclone.org/koofr/). However, this may all be at the expense of the [desktop app’s usability](https://www.cloudwards.net/review/koofr/).
 
