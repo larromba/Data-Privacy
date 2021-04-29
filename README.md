@@ -230,7 +230,7 @@ Unfortunately most privacy-based alternatives seem at the expense of feature com
 In the current health crisis linked to the COVID-19 outbreak, CryptPad supports remote working. The storage limit for all registered users is increased to 1GB until further notice. Registration is free with no personal data required.
 ```
 
-CryptPad's most lacklustre feature seems to be the presentations (see [this review](https://nixfaq.org/2020/09/can-it-replace-google-docs-cryptpad-review.html)), but the docs / spreadsheets will suffice for simple things. On signup, there's a notice stating links must be shared securely (because they potentially be guessed), and data-integrity is not 100% guaranteed (e.g. regular backups should be made).
+CryptPad's most lacklustre feature seems to be the presentations (see [this review](https://nixfaq.org/2020/09/can-it-replace-google-docs-cryptpad-review.html)), but the docs / spreadsheets will suffice for simple things. On signup, there's a notice stating links must be shared securely (because they could potentially be guessed), and data-integrity isn't necessarily guaranteed (e.g. regular backups should be made).
 
 For something more feature-rich and user-friendly, [Arcane Office](https://arcaneoffice.com/) is worth a look. However, their [Privacy Policy](https://cdn.arcaneoffice.com/TERMS.txt) does state the use of Google Ads alongside some minor logging.
 
