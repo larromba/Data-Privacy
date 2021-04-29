@@ -8,6 +8,7 @@
 - [Internet Services](#internet-services)
 - [Search Engine](#search-engine)
 - [Cloud Storage](#cloud-storage)
+- [Cloud Docs](#cloud-docs)
 - [Social Media](#social-media)
 - [Messaging Apps](#messaging-apps)
 - [Password Managers](#password-managers)
@@ -210,15 +211,30 @@ Whichever search engine you choose, use a VPN (with encrypted DNS) or the Tor Br
 
 There are [numerous encrypted options](https://restoreprivacy.com/cloud-storage/reviews/) on the market (detailed [here](https://restoreprivacy.com/cloud-storage/best/) and [here](https://www.macobserver.com/tips/quick-tip/5-encrypted-cloud-storage/)), but they all seem to have drawbacks.
 
-[SpiderOak](https://spideroak.com/) was [championed by Edward Snowden](https://www.guidingtech.com/31680/dropbox-vs-google-drive-vs-spideroak/), but as it uses proprietary software, and is based in the US, cooperation with the NSA seems plausible.
+[SpiderOak](https://spideroak.com/) was [championed by Edward Snowden](https://www.guidingtech.com/31680/dropbox-vs-google-drive-vs-spideroak/), but as it uses proprietary software, and is based in the US, NSA cooperation is plausible.
 
-[NordLocker](https://nordlocker.com/) seems the easiest solution, but it's at the expense of some [anonymised app diagnostics](https://restoreprivacy.com/cloud-storage/reviews/nordlocker/). Nord is best known for their [VPN](https://nordvpn.com/). If you’re already using that, using another Nord product isn’t ideal, as privacy is improved with diversity. There's a few videos on YouTube of the macOS desktop app asking for far too many permissions, [which is concerning](https://www.finjanmobile.com/app-permissions-the-good-the-bad-and-why-you-need-to-pay-attention/)).
+[Koofr](https://koofr.eu/) (based in Ljubljana) might be a safer alternative. It has a simple [privacy pledge](https://koofr.eu/privacy/), and [this review](https://cloudstorageinfo.org/koofr-review) suggests client-side encryption is possible using [rclone](https://rclone.org/koofr/). However, this may all be at the expense of the [desktop app’s usability](https://www.cloudwards.net/review/koofr/).
 
-[Koofr](https://koofr.eu/) seems another contender due its simple [privacy pledge](https://koofr.eu/privacy/), however it may be at the expense of the [desktop app’s usability](https://www.cloudwards.net/review/koofr/). [This review](https://cloudstorageinfo.org/koofr-review) suggests client-side encryption is possible using [rclone](https://rclone.org/koofr/).
+[NordLocker](https://nordlocker.com/) might be an option, but it seems more focused on encryption, rather than cloud storage. Nord is best known for their [VPN](https://nordvpn.com/). If you’re already using that, using another Nord product isn’t ideal, as privacy is arguably improved with diversity. There's a few videos on YouTube of the macOS desktop app asking for far too many permissions, [which is concerning](https://www.finjanmobile.com/app-permissions-the-good-the-bad-and-why-you-need-to-pay-attention/)). NordLocker will also track [anonymised app diagnostics](https://restoreprivacy.com/cloud-storage/reviews/nordlocker/). 
 
-If done correctly, the most secure solution is to self-host [NextCloud](https://nextcloud.com/), and encrypt files with [Boxcryptor](https://www.boxcryptor.com/en/) (reviewed [here](https://www.cloudwards.net/boxcryptor-review/)) or [VeraCrypt](https://www.veracrypt.fr/en/Home.html) (reviewed [here](https://www.cloudwards.net/veracrypt-review/)). However if you configure the server incorrectly, it's becomes riskier than using an existing service. Existing services / apps also keep up-to-date with the latest security practises, something you'd need to do by yourself.
+The most paranoid solution would be to self-host [NextCloud](https://nextcloud.com/), and encrypt files with [Boxcryptor](https://www.boxcryptor.com/en/) (reviewed [here](https://www.cloudwards.net/boxcryptor-review/)) or [VeraCrypt](https://www.veracrypt.fr/en/Home.html) (reviewed [here](https://www.cloudwards.net/veracrypt-review/)). However, if you incorrectly configure the server, it's still riskier than using an existing service. Existing services also have dedicated teams that keep up-to-date with the latest security practises.
 
-If you’re already using Google Drive, and want to transition service, untangling yourself from Google’s placeholder files (docs, sheets, etc) might prove difficult. Rather than remove them from each folder individually, it might be quicker to automate the process with a script.
+# Cloud Docs
+If you're using Google Drive, before transferring to another service, you'll first need to untangle yourself from Google's placeholder files (`.gdoc`, `.gsheet`, etc). Searching for these extensions within your desktop's Google Drive folder will help identify which documents need to be transferred.
+
+Unless you need group collaboration, or future-proofing, the simplest solution would be to export your cloud docs to a native extension (e.g. `.odt` / `.docx`) and edit them on your computer using proprietary software (like [Pages](https://www.apple.com/pages/) or [Numbers](https://www.apple.com/numbers/) for macOS), or if portability is a requirement, an open-source software (like [OpenOffice](https://www.openoffice.org/) or [LibreOffice](https://www.libreoffice.org/)). Files can then be synced to the cloud via a folder on your computer.
+
+Unfortunately most privacy-based alternatives seem at the expense of feature compatibility and usability, but if you need a simple replacement that's fairly privacy-savvy, [CryptPad](https://cryptpad.fr) is probably your best bet. Whilst based in France ([9 eyes](#9-eyes-try-to-avoid)), their character seems noble; during the Pandemic CryptPad added this to their home-page:
+
+```
+In the current health crisis linked to the COVID-19 outbreak, CryptPad supports remote working. The storage limit for all registered users is increased to 1GB until further notice. Registration is free with no personal data required.
+```
+
+CryptPad's most lacklustre feature seems to be the presentations (see [this review](https://nixfaq.org/2020/09/can-it-replace-google-docs-cryptpad-review.html)), but the docs / spreadsheets will suffice for simple things. On signup, there's a notice stating links must be shared securely (because they potentially be guessed), and data-integrity is not 100% guaranteed (e.g. regular backups should be made).
+
+For something more feature-rich and user-friendly, [Arcane Office](https://arcaneoffice.com/) is worth a look. However, their [Privacy Policy](https://cdn.arcaneoffice.com/TERMS.txt) does state the use of Google Ads alongside some minor logging.
+
+A more detailed list of alternatives is available [here](https://www.techspot.com/news/80729-complete-list-alternatives-all-google-products.html) - _section: `Google Docs / Sheets / Slides alternative`_.
 
 # Photos
 There doesn’t seem to be much information about secure / private photo services, but a few are listed [here](https://www.techspot.com/news/80729-complete-list-alternatives-all-google-products.html).
