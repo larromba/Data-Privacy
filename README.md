@@ -178,7 +178,7 @@ There’s no doubt Google is the best and most intuitive search engine, but it�
 
 [DuckDuckGo](https://duckduckgo.com/) has arguably become the most well-known private search engine. It also returns fairly decent searches. Nonetheless it has a troubling past (see [here](https://lemmy.ml/post/31321) and [here](http://Techrights.org/2020/07/02/ddg-privacy-abuser-in-disguise/)) and may have once tried to secretly [fingerprint](https://betanews.com/2019/01/07/duckduckgo-fingerprinting-accusation/#comments) users. Regardless, it’s still a better choice than Google
 
-There’s a few more alternatives described [here](https://restoreprivacy.com/private-search-engine/), but none of them seem too convincing.
+There’s a few more alternatives described [here](https://restoreprivacy.com/private-search-engine/), but none of them seem too convincing. For a more broad comparison, [this](https://searchengine.party/) may help.
 
 You’ll definitely want to avoid:
 * [OneSearch](https://www.onesearch.com/) (owned by Verizon Media, USA), as they save your IP address and search queries for 4 days.
