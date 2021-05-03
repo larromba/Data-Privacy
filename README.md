@@ -421,6 +421,7 @@ If you choose third-party solutions, follow them on Twitter, and check their blo
 - [14 eyes](https://www.privacytools.io/providers/#ukusa)
 - [Privacy Tools](https://www.privacytools.io/)
 - [Restore Privacy](https://restoreprivacy.com/)
+- [PRISM Break](https://prism-break.org/)
 - [The complete list of alternative to all Google products](https://www.techspot.com/news/80729-complete-list-alternatives-all-google-products.html)
 - [How to restore your privacy huge list](https://www.google.com/url?q=https://www.reddit.com/r/privacytoolsIO/comments/g1z01w/guide_to_how_to_restore_your_privacy_huge_list/&sa=D&source=editors&ust=1613971005610000&usg=AOvVaw03BblmrZ7fLRheNHcjB3uE)
 - [Alternatives to google and facebook and reclaiming privacy](https://www.reddit.com/r/dropgoogle/comments/5l0fwj/alternatives_to_google_facebook_and_reclaiming/)
@@ -431,3 +432,4 @@ The following websites are worth a read, but may not be as accurate:
 
 - [Proprivacy](https://proprivacy.com)
 - [Privacy Watchdog](https://privacy-watchdog.io)
+- [NSA in Germany](https://www.wsws.org/en/articles/2013/07/11/gspy-j11.html)
