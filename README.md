@@ -253,19 +253,21 @@ One solution is to use social media for business endeavours only, as professiona
 You can deactivate Facebook to keep Messenger (if you need it), but Facebook will still have your data. The best option is to delete Facebook, alongside sending a [data removal request email](https://www.datarequests.org/blog/sample-letter-gdpr-erasure-request/).
 
 # Messaging Apps
-As WhatsApp is owned by Facebook, it’s advisable to use it sparingly, which is difficult due to its popularity. One solution is to find an encrypted messaging app (on Android and iOS), and ask your friends to use that.
+As WhatsApp is owned by Facebook, and considering the recent changes to their [terms and conditions](https://conversation.which.co.uk/technology/whatsapp-new-terms-conditions-privacy/), it’s advisable to use is sparingly, which is difficult due to its popularity. One solution is to find an encrypted messaging app (on Android and iOS), and ask your friends to use that.
 
 There are a number of secure messaging apps detailed [here](https://restoreprivacy.com/secure-encrypted-messaging-apps/), [here](https://www.privacytools.io/software/real-time-communication/) and [here](https://www.techspot.com/news/80729-complete-list-alternatives-all-google-products.html). There’s a very comprehensive list [here](https://securechatguide.org/centralizedapps.html).
 
-[Signal](https://signal.org/) (endorsed by Edward Snoden) is touted as one of the best encrypted messaging apps. Whilst its centralised server is in the US, it’s open-source, and looks the most established.
+[Signal](https://signal.org/) (endorsed by Edward Snowden) is touted as one of the best encrypted messaging apps. Whilst Signal uses centralised servers based in the US, it’s open-source, and looks the most established, proven and trustable messaging app ([review here](https://restoreprivacy.com/secure-encrypted-messaging-apps/signal/)). As it's the most similar to WhatsApp, it's probably one of the easier alternatives to convince your friends to use.
 
-[Threema](https://threema.ch/en) (location in Switzerland) looks like an ideal alternative. However, as it’s paid-only, convincing your friends to use it will be difficult.
+[Session](https://getsession.org/) is a fork of Signal that doesn't require any details to register. However, from reading [this](https://restoreprivacy.com/secure-encrypted-messaging-apps/session/), there seems to be some concerns regarding the company's location in Australia, and if the product is even stable.
 
-[Element](https://element.io/) uses a decentralised open-source network called [Matrix](https://matrix.org/), and doesn't [mine data](https://element.io/personal). However, when looking closer at the terms, it seems some [data collection and ip logging](https://element.io/privacy) does actually occur.
+[Element](https://element.io/) uses a decentralised open-source network called [Matrix](https://matrix.org/), and doesn't [mine data](https://element.io/personal). However, when looking closer at the terms, it seems some [data collection and ip logging](https://element.io/privacy) does actually occur. The UI also seems a bit lacking, but if you prefer pseudo-anonymous sign-ups (no email or phone number), and more decentralisation, this seems a great choice.
 
-There’s a long thread about Element [here](https://news.ycombinator.com/item?id=23842179). In the thread, [Syphon](https://syphon.org/) is suggested - an open-source app using the same Matrix network. However it’s only maintained by one developer, meaning the implementation might be harder to trust, even if data collection is less likely.
+There’s a long thread about Element [here](https://news.ycombinator.com/item?id=23842179). In the thread, [Syphon](https://syphon.org/) is suggested - an open-source app using the same Matrix network. However it’s only maintained by one developer, meaning the implementation might be harder to trust.
 
-[Status](https://status.im) (reviewed [here](https://proprivacy.com/privacy-service/review/statusim)) is worth a mention because of its [pseudo-anonymous account creation](https://status.im/security/) (no email or phone number necessary). The company is also based in Switzerland. However it seems bloated with a few extra features (a browser and a crypto-currency wallet).
+[Threema](https://threema.ch/en) (location in Switzerland) looks like an ideal alternative. However, as it’s paid-only, convincing your friends to use it will be very difficult.
+
+[Status](https://status.im) (reviewed [here](https://proprivacy.com/privacy-service/review/statusim)) is worth a mention because of its [pseudo-anonymous account creation](https://status.im/security/). The company is also based in Switzerland. However it seems bloated with a few extra features (a browser and a crypto-currency wallet).
 
 # Password Managers
 It would be incredibly difficult, if not impossible to remember unique passwords for every service you use. A naive solution might be to write them down on paper, or save them in a text file, but storing passwords in ‘plain-text’ can be easily lost or stolen.
