@@ -109,9 +109,9 @@ To use Thunderbird without any 3rd-party extension:
     - Store it on an encrypted hard drive / cloud service.
 
 To access the backup at a later stage in Thunderbird:
-    - Unzip the file
-    - Move its contents to: `/Thunderbird/Profiles/<MY_PROFILE>.default/Mail/Local Folders/`
-    - Restart Thunderbird and it should appear in the `Local Folders` section. If you can't this section, click `View -> Layout -> Folder Pane`.
+* Unzip the file
+* Move its contents to: `/Thunderbird/Profiles/<MY_PROFILE>.default/Mail/Local Folders/`
+* Restart Thunderbird and it should appear in the `Local Folders` section. If you can't this section, click `View -> Layout -> Folder Pane`.
 
 You must then decide how to access your email. Whilst web browsers are commonplace, any time spent browsing leaves you more vulnerable to tracking. One solution is to use a software email client, such as [Thunderbird](https://www.thunderbird.net/en-GB/) which can be configured to prevent [web-beacons and tracking pixels](https://en.wikipedia.org/wiki/Web_beacon). However, web clients store information on your computer, which can be a target for malware, or pose a security risk if your laptop is stolen.
 
