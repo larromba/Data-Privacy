@@ -429,6 +429,8 @@ If you choose third-party solutions, follow them on Twitter, and check their blo
 - [Alternatives to google and facebook and reclaiming privacy](https://www.reddit.com/r/dropgoogle/comments/5l0fwj/alternatives_to_google_facebook_and_reclaiming/)
 - [List of privacy-conscious email services](https://prxbx.com/email/)
 - [Drop Google](https://dropgoogle.com/)
+- [Privacy Brochure - A Benchmark Study](https://www.wu.ac.at/ec/projects/privacy-brochure-a-benchmark-study/)
+- [εxodus - Android app privacy audit](https://reports.exodus-privacy.eu.org/en/)
 
 The following websites are worth a read, but may not be as accurate:
 
