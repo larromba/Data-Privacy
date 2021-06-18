@@ -113,7 +113,7 @@ To access the backup at a later stage in Thunderbird:
 * Move its contents to: `/Thunderbird/Profiles/<MY_PROFILE>.default/Mail/Local Folders/`
 * Restart Thunderbird and it should appear in the `Local Folders` section. If you can't this section, click `View -> Layout -> Folder Pane`.
 
-You must then decide how to access your email. Whilst web browsers are commonplace, any time spent browsing leaves you more vulnerable to tracking. One solution is to use a software email client, such as [Thunderbird](https://www.thunderbird.net/en-GB/) which can be configured to prevent [web-beacons and tracking pixels](https://en.wikipedia.org/wiki/Web_beacon). However, web clients store information on your computer, which can be a target for malware, or pose a security risk if your laptop is stolen.
+You must then decide how to access your email. Whilst web browsers are commonplace, any time spent browsing leaves you more vulnerable to tracking. One solution is to use a software email client, such as [Thunderbird](https://www.thunderbird.net/en-GB/) which can be configured to prevent [web-beacons and tracking pixels](https://en.wikipedia.org/wiki/Web_beacon) ([more info](https://www.bbc.com/news/technology-56071437)). However, web clients store information on your computer, which can be a target for malware, or pose a security risk if your laptop is stolen.
 
 If you want to keep your existing setup with minimal changes (e.g. everything works as before - notes, calendar, emails on your phone, etc), [Posteo](https://posteo.de/en) seems a good option. Whilst it’s a German company (within the 14 eyes), and German law is [becoming more worrisome](https://old.reddit.com/r/tutanota/comments/dwqqzs/tutanota_its_not_safe/), they don’t keep logs, even if they were almost forced to start logging [ip addresses](https://www.zdnet.com/article/log-free-email-provider-posteo-you-must-log-user-ip-addresses-court-rules/).
 
@@ -126,13 +126,13 @@ Once you choose a provider, use a number of [email aliases](https://www.techoped
 # Internet Browser
 It’s worth reading the basics of how an [internet browser works](https://www.mozilla.org/en-GB/firefox/browsers/what-is-a-browser/).
 
-[Firefox](https://www.mozilla.org/en-GB/firefox/new/) configured for maximum privacy (see [here](https://restoreprivacy.com/firefox-privacy/) and [here](https://www.privacytools.io/browsers/#about_config)) is probably the simplest option for private browsing, but it won’t stop your [Internet Service Provider (ISP)](https://en.wikipedia.org/wiki/Internet_service_provider) from [tracking you](https://digital.com/online-privacy/isp-tracking/). For best privacy, use the [Tor Browser](https://www.torproject.org/) (also based on an earlier build of Firefox). Whilst it’s [harder for your ISP to track you](https://www.addictivetips.com/vpn/tor-usage-explained/) with the Tor Browser, they’ll still know you’re on the [Tor network](https://en.wikipedia.org/wiki/Tor_%28anonymity_network%29).
+[Firefox](https://www.mozilla.org/en-GB/firefox/new/) configured for maximum privacy (see [here](https://restoreprivacy.com/firefox-privacy/) and [here](https://www.privacytools.io/browsers/#about_config)) with the [NoScript](https://noscript.net/) plugin is probably the fastest option for private browsing, but it won’t stop your [Internet Service Provider (ISP)](https://en.wikipedia.org/wiki/Internet_service_provider) from [tracking you](https://digital.com/online-privacy/isp-tracking/). For best privacy, use the [Tor Browser](https://www.torproject.org/) (also based on an earlier build of Firefox). Whilst it’s [harder for your ISP to track you](https://www.addictivetips.com/vpn/tor-usage-explained/) with the Tor Browser, they’ll still know you’re on the [Tor network](https://en.wikipedia.org/wiki/Tor_%28anonymity_network%29).
 
 Firefox might seem unsafe, considering [Mozilla](https://www.mozilla.org) (its parent company) is a US company. However Firefox is open-source, renowned for privacy advocacy, and has a proven track-record for internet privacy.
 
-Whichever browser you choose, clear its data often (every day or every session). Alternatively, set the browser's data to clear automatically when it restarts, and restart it often.
+Whichever browser you choose, clear its data often (every day, or every session). Alternatively, set the browser's data to clear automatically when it restarts, and restart it often.
 
-Third parties can track you around the web in various ways:
+Third parties can track you around the web in various ways (test your browser [here](https://coveryourtracks.eff.org/)):
 
 | **Technology** | **How?** | **Ways to mitigate** | 
 | --- | --- | --- |
