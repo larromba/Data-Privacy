@@ -299,7 +299,7 @@ Try to replace any Google-apps with (preferably open-source) [alternatives](http
 
 A VPN and encrypted DNS can help hide your IP address from your ISP. Changing your DNS server can also help to block ads and trackers. [LibreDNS](https://libredns.gr/) (tutorial [here](https://gitlab.com/libreops/libredns/libredns.gr/-/wikis/home)) seems a good example, as it’s open source and based in Germany.
 
-Smartphone browsers aren’t very customisable, so something designed for additional privacy should be used, like [Firefox Focus](https://support.mozilla.org/en-US/kb/focus). The default search engine should be changed to something more private.
+Smartphone browsers aren’t very customisable, so something designed for additional privacy should be used, like ~~[Firefox Focus](https://support.mozilla.org/en-US/kb/focus)~~ [Brave](https://brave.com/download/) with all the 'privacy shields' activated. The default search engine should be changed to something more private.
 
 It’s worth knowing that your phone can't be made private, because of two unique identifiers: the [IMEI](https://en.wikipedia.org/wiki/International_Mobile_Equipment_Identity) (International Mobile Equipment Identity) and [IMSI](https://en.wikipedia.org/wiki/International_mobile_subscriber_identity) (Individual Manufacturer Subscriber Identity).
 
