@@ -132,7 +132,12 @@ Firefox might seem unsafe, considering [Mozilla](https://www.mozilla.org) (its p
 
 Whichever browser you choose, clear its data often (every day, or every session). Alternatively, set the browser's data to clear automatically when it restarts, and restart it often.
 
-Third parties can track you around the web in various ways (test your browser [here](https://coveryourtracks.eff.org/), [here](https://arkenfox.github.io/TZP/tzp.html) and [here](https://abrahamjuliot.github.io/creepjs/)):
+Third parties can track you around the web in various ways. To test your browser:
+* [Cover Your Tracks](https://coveryourtracks.eff.org/)
+* [TorZillaPrint](https://arkenfox.github.io/TZP/tzp.html)
+* [CreepJS](https://abrahamjuliot.github.io/creepjs/)
+* [UNIQUEMACHINE](https://uniquemachine.org/)
+* [AmIUnique](https://amiunique.org/)
 
 | **Technology** | **How?** | **Ways to mitigate** | 
 | --- | --- | --- |
