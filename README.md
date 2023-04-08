@@ -431,6 +431,8 @@ If you choose third-party solutions, follow them on Twitter, and check their blo
 - [Drop Google](https://dropgoogle.com/)
 - [Privacy Brochure - A Benchmark Study](https://www.wu.ac.at/ec/projects/privacy-brochure-a-benchmark-study/)
 - [εxodus - Android app privacy audit](https://reports.exodus-privacy.eu.org/en/)
+- [Tachtical Tech](https://tacticaltech.org/)
+- [Data Detox Kit](https://www.datadetoxkit.org/)
 
 The following websites are worth a read, but may not be as accurate:
 
