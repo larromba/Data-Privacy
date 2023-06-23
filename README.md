@@ -163,9 +163,9 @@ Third parties can track you around the web in various ways:
 
 To improve your privacy when using your web browser, it might be worth installing these plugins:
 
-| **Name** | **Link** | **Info** |
+| **Plugin** | **Link** | **Notes** |
 | --- | --- | --- |
-| NoScript | https://noscript.net/ | It's an effort to configure this plugin over time, so if that's too much effort, try this [simplification](https://www.dedoimedo.com/computers/noscript-ordinary-users.html) |
+| NoScript | https://noscript.net/ | If it's too much effort to configure over time, try [this](https://www.dedoimedo.com/computers/noscript-ordinary-users.html) simplification |
 | uBlock Origin | https://ublockorigin.com/ | |
 | Privacy Badger | https://privacybadger.org/ | |
 | Decentraleyes | https://decentraleyes.org/ | |
