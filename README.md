@@ -5,6 +5,7 @@
 - [Why be concerned?](#why-be-concerned)
 - [Email](#email)
 - [Internet Browser](#internet-browser)
+- [Internet Browser Plugins](#internet-browser-plugins)
 - [Internet Services](#internet-services)
 - [Search Engine](#search-engine)
 - [Cloud Storage](#cloud-storage)
@@ -111,7 +112,7 @@ To use Thunderbird without any 3rd-party extension:
 To access the backup at a later stage in Thunderbird:
 * Unzip the file
 * Move its contents to: `/Thunderbird/Profiles/<MY_PROFILE>.default/Mail/Local Folders/`
-* Restart Thunderbird and it should appear in the `Local Folders` section. If you can't this section, click `View -> Layout -> Folder Pane`.
+* Restart Thunderbird and it should appear in the `Local Folders` section. If you can't see this section, click `View -> Layout -> Folder Pane`.
 
 You must then decide how to access your email. Whilst web browsers are commonplace, any time spent browsing leaves you more vulnerable to tracking. One solution is to use a software email client, such as [Thunderbird](https://www.thunderbird.net/en-GB/) which can be configured to prevent [web-beacons and tracking pixels](https://en.wikipedia.org/wiki/Web_beacon) ([more info](https://www.bbc.com/news/technology-56071437)). However, web clients store information on your computer, which can be a target for malware, or pose a security risk if your laptop is stolen.
 
@@ -126,7 +127,7 @@ Once you choose a provider, use a number of [email aliases](https://www.techoped
 # Internet Browser
 It’s worth reading the basics of how an [internet browser works](https://www.mozilla.org/en-GB/firefox/browsers/what-is-a-browser/).
 
-[Firefox](https://www.mozilla.org/en-GB/firefox/new/) configured for maximum privacy (see [here](https://restoreprivacy.com/firefox-privacy/) and [here](https://www.privacytools.io/browsers/#about_config)) with some plugins ([NoScript](https://noscript.net/), [uBlock Origin](https://ublockorigin.com/), [Privacy Badger](https://privacybadger.org/) and [Decentraleyes](https://decentraleyes.org/)) is probably the fastest option for private browsing, but it won’t stop your [Internet Service Provider (ISP)](https://en.wikipedia.org/wiki/Internet_service_provider) from [tracking you](https://digital.com/online-privacy/isp-tracking/). For best privacy, use the [Tor Browser](https://www.torproject.org/) (also based on an earlier build of Firefox). Whilst it’s [harder for your ISP to track you](https://www.addictivetips.com/vpn/tor-usage-explained/) with the Tor Browser, they’ll still know you’re on the [Tor network](https://en.wikipedia.org/wiki/Tor_%28anonymity_network%29).
+[Firefox](https://www.mozilla.org/en-GB/firefox/new/) configured for maximum privacy (see [here](https://restoreprivacy.com/firefox-privacy/) and [here](https://www.privacytools.io/browsers/#about_config)) with some plugins (see [below](#internet-browser-plugins)) is probably the fastest option for private browsing, but it won’t stop your [Internet Service Provider (ISP)](https://en.wikipedia.org/wiki/Internet_service_provider) from [tracking you](https://digital.com/online-privacy/isp-tracking/). For best privacy, use the [Tor Browser](https://www.torproject.org/) (also based on an earlier build of Firefox). Whilst it’s [harder for your ISP to track you](https://www.addictivetips.com/vpn/tor-usage-explained/) with the Tor Browser, they’ll still know you’re on the [Tor network](https://en.wikipedia.org/wiki/Tor_%28anonymity_network%29).
 
 Firefox might seem unsafe, considering [Mozilla](https://www.mozilla.org) (its parent company) is a US company. However Firefox is open-source, renowned for privacy advocacy, and has a proven track-record for internet privacy.
 
@@ -143,7 +144,7 @@ Third parties can track you around the web in various ways:
 | [Cookies](https://privacy.net/stop-cookies-tracking/) | Cookies are small pieces of information stored on your computer that can be used to identify you. | Block all third party cookies in your browser. Automatically delete cookies when the browser closes. Always send a ‘[do not track signal](https://spreadprivacy.com/do-not-track/)’ from your browser. | 
 | [Web beacons / ](https://www.gdpreu.org/compliance/email-tracking/)[Tracking pixels](https://www.gdpreu.org/compliance/email-tracking/) | Hidden pixels that collect data about you. | Block them in all windows | 
 | [Cryptominers](https://www.malwarebytes.com/cryptojacking/) | JavaScript that uses your system resources to mine crypto-currencies. | Block them in your browser. | 
-| [Fingerprinters](https://pixelprivacy.com/resources/browser-fingerprinting/) | Non-obvious information that can be collected about you that creates a unique identification. To test your browser, visit: [Cover Your Tracks](https://coveryourtracks.eff.org/), [TorZillaPrint](https://arkenfox.github.io/TZP/tzp.html), [CreepJS](https://abrahamjuliot.github.io/creepjs/), [UNIQUEMACHINE](https://uniquemachine.org/), [AmIUnique](https://amiunique.org/) | Block them in your browser. Consider using these plugins: [NoScript](https://noscript.net/), [uBlock Origin](https://ublockorigin.com/), [Privacy Badger](https://privacybadger.org/) and [Decentraleyes](https://decentraleyes.org/) | 
+| [Fingerprinters](https://pixelprivacy.com/resources/browser-fingerprinting/) | Non-obvious information that can be collected about you that creates a unique identification. To test your browser, visit: [Cover Your Tracks](https://coveryourtracks.eff.org/), [TorZillaPrint](https://arkenfox.github.io/TZP/tzp.html), [CreepJS](https://abrahamjuliot.github.io/creepjs/), [UNIQUEMACHINE](https://uniquemachine.org/), [AmIUnique](https://amiunique.org/) | Block them in your browser. Consider using these [plugins](#internet-browser-plugins). | 
 | [Pop-up windows](http://www.bbc.co.uk/webwise/guides/about-popups) | Adverts that pop up without your permission or engagement. Often these can contain cryptominers, web-beacons and fingerprinters. They can also trick you into downloading malware. | Block them in your browser. | 
 | Logins / passwords / auto-completions | Browsers make the user experience more fluid with auto-completion, but data gets populated without requiring a password. Even if it's setup to use a password, data gets stored locally. This risks exploitation by malware, and may pose a security risk if your laptop is stolen. | Never save them with your browser. If you need to save passwords or form data, use a separate encrypted password management service. | 
 | History | Keeping history on the browser is at risk of exploitation from malware, and may pose a security risk if your laptop is stolen. | Never remember. Clear when the browser restarts. | 
@@ -157,6 +158,17 @@ Third parties can track you around the web in various ways:
 | [Media Access Control (MAC) address](https://whatismyipaddress.com/mac-address) | The hardware address of your network adapter that can be used to identify you. | The MAC address should be [spoofed](https://nordvpn.com/blog/mac-address/) regularly. *MAC addresses can [no longer be changed](https://developer.apple.com/forums/thread/654452) on Big Sur.* | 
 | [Domain Name Service (DNS)](https://www.cloudflare.com/en-gb/learning/dns/what-is-dns/) | The DNS converts human friendly web addresses into IP addresses over HTTP, which can cause [IP leaks](https://vpnonline.com/guides/what-is-dns-leak-and-how-to-fix-it/) over a VPN. | Check your VPN prevents DNS leaks, and [test](https://www.dnsleaktest.com/) their claim. Various tools like [dnscrypt](https://dnscrypt.info/) ([macOS tutorial](https://github.com/larromba/macOS-Security-and-Privacy-Guide#dnscrypt)) can help encrypt DNS traffic. On Firefox you can enable DNS over HTTPS, using an alternative DNS than that provided by your ISP (like [LibreDNS](https://libredns.gr/)). | 
 | [hosts file](https://en.wikipedia.org/wiki/Hosts_%28file%29) | The hosts file acts like a local DNS, and can be a useful way to block urls of known trackers, adwares or malwares. | There’s lots of examples online, like [this one](https://github.com/1r2/iosparanoid). | 
+
+# Internet Browser Plugins
+
+To improve your privacy when using your web browser, it might be worth installing these plugins:
+
+| **Name** | **Link** | **Info** |
+| --- | --- | --- |
+| NoScript | https://noscript.net/ | It's an effort to configure this plugin over time, so if that's too much effort, try this [simplification](https://www.dedoimedo.com/computers/noscript-ordinary-users.html) |
+| uBlock Origin | https://ublockorigin.com/ | |
+| Privacy Badger | https://privacybadger.org/ | |
+| Decentraleyes | https://decentraleyes.org/ | |
 
 # Internet Services
 The less time you spend on the internet, the better. If you must be online, where possible:
@@ -191,7 +203,7 @@ From further research, here’s an analysis of private search engines that might
 | --- | --- | --- | --- |
 | [Metager](https://metager.org/) | Stores IPs for 4 days. Search is cached for a few hours. Tracks language selection, search settings, accept header (for statistics). | Two blocks of the IP address and the user agent are given to advertisers. | Germany |
 | [Swisscows](https://swisscows.com) | Removes IP and user agent from search terms after 7 days. | Filters adult / abusive content. Some data is transmitted to advertising partners. | Switzerland | 
-| [Peekier](https://peekier.com/) | HTTP Referrer, search queries (temporarily), HTML5 local storage (for settings). | Single session cookie on Cloudflare. Weird layout. | Panama | 
+| ~~[Peekier](https://peekier.com/)~~ | ~~HTTP Referrer, search queries (temporarily), HTML5 local storage (for settings).~~ | ~~Single session cookie on Cloudflare. Weird layout.~~ | ~~Panama~~ | 
 | [InfinitySearch](https://infinitysearch.co/) | HTTP Referrer | Might leak data to Cloudflare. Poor searches. | Innovare Technologies (USA). | 
 | [Oscobo](https://www.oscobo.com/) | Supposedly nothing. | Uses cookies to encrypt search terms on the browser. Uses proprietary technology. Privacy links in _[8. More Information](https://www.oscobo.com/ctnt.php?c=privacy)_ are strange. | UK | 
 | [Mojeek](https://www.mojeek.com/) | Time of visit, page requested, HTTP Referrer, two letter country code. | _Not clear._ | UK | 
@@ -202,7 +214,7 @@ From further research, here’s an analysis of private search engines that might
 
 From this list, self-hosting [Whoogle](https://whoogle.himiko.cloud/) (instructions [here](https://github.com/benbusby/whoogle-search)) seems the safest option that most resembles a Google search. However, when Google updates its code, there may be breaking changes that must be fixed by the owner, and then applied yourself.
 
-Out of the hosted options, [Peekier](https://peekier.com/) seems the most trustable, with decent searches, and a likeable server location. If the layout is too unusual, either [Metager](https://metager.org/) or [Mojeek](https://www.mojeek.com/) will seem more familiar. Metager has a better server location, but at the expense of sharing (fairly anonymous) data to advertisers.
+Out of the hosted options, [Peekier](https://peekier.com/) _(no longer available)_ seems the most trustable, with decent searches, and a likeable server location. If the layout is too unusual, either [Metager](https://metager.org/) or [Mojeek](https://www.mojeek.com/) will seem more familiar. Metager has a better server location, but at the expense of sharing (fairly anonymous) data to advertisers.
 
 Whichever search engine you choose, use a VPN (with encrypted DNS) or the Tor Browser to hide searches from your ISP.
 
