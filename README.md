@@ -445,6 +445,7 @@ If you choose third-party solutions, follow them on Twitter, and check their blo
 - [εxodus - Android app privacy audit](https://reports.exodus-privacy.eu.org/en/)
 - [Tachtical Tech](https://tacticaltech.org/)
 - [Data Detox Kit](https://www.datadetoxkit.org/)
+- [PrivacyTests.org](https://privacytests.org/)
 
 The following websites are worth a read, but may not be as accurate:
 
